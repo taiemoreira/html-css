@@ -1,23 +1,17 @@
-.bloco{
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 5px;
-    background-image: url('img/wallpaper003.jpg');
+body {
+    background-color: black;
+    background-image: url('img/wallpaper002.jpg');
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-#q1 {
-    background-position: left top;
-}
-
-#q2 {
-    background-position: left center;
-}
-
-#q3 {
-    background-position: right bottom;
-}
-
-#q4 {
-    background-position: center center;
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid blue;
+    border-radius: 15px;
 }
