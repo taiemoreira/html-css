@@ -1,17 +1,13 @@
-body {
-    background-color: black;
-    background-image: url('img/wallpaper002.jpg');
-    background-position: center top;
-    background-repeat: repeat;
-    background-size: cover;
-    height: 100vh;
+#container {
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
 }
 
-main {
-    background-color: white;
+#conteudo {
+    position: absolute;
+    height: 200px;
     width: 400px;
-    padding: 10px;
-    margin: auto;
-    border: 1px solid blue;
-    border-radius: 15px;
+    background-color: yellow;
 }
